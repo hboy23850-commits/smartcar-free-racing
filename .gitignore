@@ -1,0 +1,38 @@
+# 本地 IDE 与系统文件
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 构建目录与编译产物
+build/
+cmake-build-*/
+*.o
+*.obj
+*.a
+*.lib
+*.elf
+*.axf
+*.out
+*.hex
+*.bin
+*.map
+
+# 本地配置与敏感信息
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python 缓存与虚拟环境
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 临时文件与日志
+*.log
+*.tmp
+*.bak
+~$*
